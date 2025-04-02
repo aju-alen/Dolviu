@@ -30,7 +30,7 @@ export const MainSection = () => {
     const {isSignedIn} = useAuth()
     const clerk = useClerk()
 
-    console.log(useAuth());
+console.log(isSignedIn,'You are signed in');
     
 
     return(
