@@ -4,13 +4,14 @@ On Progress: Building a video sharing platform Dolviu
 First, run the development server:
 
 ```bash
-npm run dev
+# recommended bun
+bun dev:all
 # or
-yarn dev
+yarn dev:all
 # or
-pnpm dev
+pnpm dev:all
 # or
-bun dev
+npm run dev:all
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
